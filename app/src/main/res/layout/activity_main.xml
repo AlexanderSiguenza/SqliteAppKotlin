@@ -125,8 +125,8 @@
 
     <Button
         android:id="@+id/btnActualizar"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_width="157dp"
+        android:layout_height="45dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="46dp"
@@ -134,20 +134,22 @@
         android:text="Actualizar"
         app:layout_constraintBottom_toTopOf="@+id/btnEliminar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnAgregar" />
 
     <Button
         android:id="@+id/btnEliminar"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="46dp"
         android:text="Eliminar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnActualizar" />
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregar" />
 
     <Button
         android:id="@+id/btnBuscar"
